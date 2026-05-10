@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.hero-section {
+	height: 90vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-section h1 {
+	font-size: 55px;
+}
+
+.hero-section p {
+	font-size: 22px;
+}
